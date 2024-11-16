@@ -24,7 +24,7 @@ document.querySelectorAll(".btnDetail").forEach((item) => {
 
     // Generate WhatsApp Message Link
     const nohp = "+62 822-1762-8205"; // Ganti dengan nomor WhatsApp yang sesuai
-    let pesan = `https://api.whatsapp.com/send?phone=${nohp}&text=Halo, saya ingin mendaftarkan tim kami . mohon isi nama team : no wa leader : username : id team: : ${judul}. Gambar produk: ${gambar}.`;
+    let pesan = `https://api.whatsapp.com/send?phone=${nohp}&text=Halo, saya ingin mendaftarkan tim kami . mohon isi nama team, leader, username & id team: ${judul}. Gambar produk: ${gambar}.`;
 
     // Set WhatsApp link on the "Beli Produk Ini" button
     document.querySelector(".btnBeli").href = pesan;
